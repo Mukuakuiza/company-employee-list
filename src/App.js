@@ -48,7 +48,6 @@ function App() {
 
   return (
     <div>
-      <h1>Welcome to Company Employee Tracker</h1>
       <NewExmployee onAddEmployee = {addEmployeeHandler}/>
       <Description employees={employees}/>
     </div>
